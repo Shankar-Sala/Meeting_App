@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "webpack",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -39,5 +39,8 @@
     "tailwindcss": "^3.4.13",
     "typescript": "^5",
     "webpack": "^5.95.0"
+  },
+  "engines": {
+    "node": ">=20.17.0"
   }
 }
