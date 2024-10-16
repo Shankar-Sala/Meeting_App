@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "webpack --config webpack.config.js",
+    "build": "webpack",
     "start": "next start",
     "lint": "next lint"
   },
@@ -37,6 +37,7 @@
     "eslint-config-next": "14.2.13",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.13",
-    "typescript": "^5"
+    "typescript": "^5",
+    "webpack": "^5.95.0"
   }
 }
